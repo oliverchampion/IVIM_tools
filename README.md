@@ -5,5 +5,6 @@ Minimizing the Acquisition Time for Intravoxel Incoherent Motion Magnetic Resona
 and
 Evaluation of Six Diffusion-weighted MRI Models for Assessing Effects of Neoadjuvant Chemoradiation in Pancreatic Cancer Patients. By Klaassen et al. IJROBP. 2018 Nov;102(4):1052-1062 https://doi.org/10.1016/j.ijrobp.2018.04.064
 
-# For PCA denoising of IVIM data please check my PCA-denoising toolbox @ https://github.com/oliverchampion/PCA_denoising
+## PCA denoising
+For PCA denoising of IVIM data please check my PCA-denoising toolbox @ https://github.com/oliverchampion/PCA_denoising
 
