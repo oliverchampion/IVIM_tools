@@ -1,4 +1,9 @@
 function [bvec,TR,TE]=readb(folder)
+%% 
+%% this function returns the b-values from IVIM measurement when either dicom files or a .bval file are placed in the folder given.
+%% output is either [bvec] or [bvec, TR, TE]. TR and TE can be used for T1/T2 compensated IVIM.
+%% if TR and TE are also waner, this is only feasible with Dicoms in the folder.
+%% 
     if nargout == 1
         docs=dir(fullfile(folder,'*.bval'));
         if ~isempty(docs)
