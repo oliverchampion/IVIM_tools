@@ -7,7 +7,7 @@ function [bvec,TR,TE]=readb(folder)
     if nargout == 1
         docs=dir(fullfile(folder,'*.bval'));
         if ~isempty(docs)
-            data = fileread(fullfile(folder,docs.name(1)));
+            data = fileread(fullfile(folder,docs(1).name));
             bvec=str2num(data);
             return
         end
